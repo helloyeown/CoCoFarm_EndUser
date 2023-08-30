@@ -1,0 +1,17 @@
+import KakaoLoginComponent from "../../components/member/KakaoLoginComponent";
+import LoginComponent from "../../components/member/LoginComponent";
+import BasicLayout from "../../layouts/BasicLayout";
+
+const LoginPage = () => {
+    return ( 
+
+        <BasicLayout>
+            <div> 소비자 로그인 페이지 </div>
+            {/* <LoginComponent></LoginComponent> */}
+            <KakaoLoginComponent></KakaoLoginComponent>
+        </BasicLayout>
+
+     );
+}
+ 
+export default LoginPage;
